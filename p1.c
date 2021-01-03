@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
-    int a,b;
+    int a, b;
     printf("Welcome to my C Language Programme \n");
 
     printf("this is the calculation Program \n");
@@ -13,6 +13,6 @@ int main()
     printf("Enter number 2\n");
     scanf("%d", &b);
 
-    printf("addition is = %d\n",a+b);
+    printf("addition is = %d\n", a + b);
     return 0;
 }

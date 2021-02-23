@@ -1,1 +1,1 @@
-getch();
+ci=(pow(ci,t));

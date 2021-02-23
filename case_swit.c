@@ -24,4 +24,5 @@ int main()
     default:printf("you enter wrong value!\n");
         break;
     }
+    getch();
 }

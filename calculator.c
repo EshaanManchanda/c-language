@@ -2,10 +2,10 @@
 #include <conio.h>
 int main()
 {
-    int a, b, flag;
-        char g, ch;
+    int a/*this is for first number*/, b/*this is for the second number*/, flag/*this is for the loop */;
+        char g/*this is for the what user want the like sum ,sub etc.*/, ch/*this is for the yes or no in the loop*/;
 
-    do{
+    do{/*this is the loop for restart again and again */
         
 
         printf("\nWelcome to my C Language Programme \n");
@@ -58,6 +58,7 @@ int main()
         {
             printf("Wrong Valure");
         }
+        /*this is for the restart or exit the programm */
         printf(" \nEnter 'q' quit or 'y' for continue \n");
         scanf("%s", &ch);
         if (ch == 'q')
@@ -77,5 +78,5 @@ int main()
     } while (flag == 0);
     
 
-    return 0;
+    return 0;/*return  0 is used for the return the value 0 in the code when you are using the int main() */
 }
